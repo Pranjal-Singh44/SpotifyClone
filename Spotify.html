@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpotifyClone</title>
+    <link rel="stylesheet" href="Spotify.css">
+    <script src="https://kit.fontawesome.com/9ab756ee71.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" id="spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songList">
+            <h1>Best of NCS- No Copyright Sounds</h1>
+            <div class="songItemContainer">
+            <div class="songItem" id="0">
+                <img src="covers/3.jpg">
+                <span class="songName">They Mad</span>
+                <span class="songListPlay"><span class="timestamp">05:34<i class="fas fa-play-circle"></i></span></span>
+            </div>
+            <div class="songItem" id="1">
+                <img src="covers/3.jpg">
+                <span class="songName">They Mad</span>
+                <span class="songListPlay"><span class="timestamp">05:34<i class="fas fa-play-circle"></i></span></span>
+            </div>
+            <div class="songItem" id="2">
+                <img src="covers/3.jpg">
+                <span class="songName">They Mad</span>
+                <span class="songListPlay"><span class="timestamp">05:34<i class="fas fa-play-circle"></i></span></span>
+            </div>
+            <div class="songItem" id="3">
+                <img src="covers/3.jpg">
+                <span class="songName">They Mad</span>
+                <span class="songListPlay"><span class="timestamp">05:34<i class="fas fa-play-circle"></i></span></span>
+            </div>
+            <div class="songItem" id="4">
+                <img src="covers/3.jpg">
+                <span class="songName">They Mad</span>
+                <span class="songListPlay"><span class="timestamp">05:34<i class="fas fa-play-circle"></i></span></span>
+            </div>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+    <div class="bottom songItemPlay">
+        <input type="range" name="range" id="myProgressBar" min="0" max="100" value="0">
+        <div class="ico">
+            <i class="fas fa-3x fa-step-backward" id="previous"></i>
+            <i class="fas fa-3x fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-3x fa-step-forward" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" id="gif" width="45px" class="songName"><span id="songPlaying">They Made</span>
+        </div>
+    </div>
+    <script src="Spotify.js"></script>
+</body>
+</html>
